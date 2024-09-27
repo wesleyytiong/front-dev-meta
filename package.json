@@ -1,0 +1,15 @@
+{
+  "name": "front-dev-meta",
+  "version": "1.0.0",
+  "description": "- FP is a paradigm of coding, using functions and variables - It keeps data and functionality separate  - Passes data into functions only when we want something computed * Const, let, var 1) const - use by default. Enforces immutability and limits unintended state changes 2) let - need to reassign varaibles scoped within a block (e.g. for loops or local state within function) 3) var - function-level scope -> can lead to issues like hoisting",
+  "main": "bootstrap.bundle.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
