@@ -1,5 +1,6 @@
 // Task 1: Code a Person class
 class Person{
+     // Constructor with default parameters (encapsulation of properties)
     constructor(name = 'Tom', age = 20, energy = 100) {
         this.name = name;
         this.age = age;
@@ -14,12 +15,16 @@ class Person{
 }
 
 // Task 2: Code a Worker class
+// Worker class extends Person (inheritance)
 class Worker extends Person {
+     // Constructor with additional properties specific to Worker (abstraction)
     constructor(name, age, energy, xp = 0, hourlyWage = 10) {
+        // Call the parent class constructor using super() (inheritance)
         super(name, age, energy) // Inherit from Person class
         this.xp = xp;
         this.hourlyWage = hourlyWage;
     }
+     // Method to increase experience points (polymorphism - Worker adds its own behavior)
     goToWork() {
         this.xp += 10;
     }
@@ -39,7 +44,7 @@ function manager() {
     return manager;
 }
 
-//Instantiate and Store object
+//Instantiate object
 const internObj = intern(); 
 console.log(internObj); // Prints: Worker { name: 'Bob', age: 21, energy: 110, xp: 10, hourlyWage: 10 }
 
