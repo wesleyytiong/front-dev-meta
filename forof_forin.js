@@ -18,7 +18,7 @@ bird.hasFeathers = true;
 
 //Create birdCan() function and iterate over object's properties of bird
 function birdCan() {
-  for (var key of Object.keys(bird) { //Iterate only over own properties
+  for (var key of Object.keys(bird)) { //Iterate only over own properties
     console.log(`${key}: ${bird[key]}`); // Output key:value pair using template literals
   }
 }
@@ -26,7 +26,7 @@ birdCan();
 
 // Task 3
 function animalCan() {
-  for (var key in bird {
+  for (var key in bird) {
     console.log(`${key}: ${bird[key]}`);
   }
 }

@@ -14,8 +14,8 @@
 - Methods update properties stored in object instead of generating new return values
 - Models real-life objects
 * Principles: Inheritance, Encapsulation, Abstraction, and Polymorphism
-- Inheritance: allows a class to inherit properties and methods from another class, promoting code reuse (done using 'extend' keyword)
-1) Encapsulation: restricts direct access to object's internal data, promoting controlled interaction through methods
-2) Abstraction: hides complex details and shows only essential features of object
+1) Inheritance: allows a class to inherit properties and methods from another class, promoting code reuse (done using 'extend' keyword)
+2) Encapsulation: restricts direct access to object's internal data, promoting controlled interaction through methods
+3) Abstraction: hides complex details and shows only essential features of object
 - Note: abstraction extracts concept, rather than dealing with specific manifestation of that concept, encapsulation is about not having access to/not being concerned with, how implementation works internally
-3) Polymorphism: allows objects of different classes to be treated the same based on shared methods
+4) Polymorphism: allows objects of different classes to be treated the same based on shared methods
