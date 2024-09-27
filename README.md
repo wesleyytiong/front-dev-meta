@@ -19,3 +19,17 @@
 3) Abstraction: hides complex details and shows only essential features of object
 - Note: abstraction extracts concept, rather than dealing with specific manifestation of that concept, encapsulation is about not having access to/not being concerned with, how implementation works internally
 4) Polymorphism: allows objects of different classes to be treated the same based on shared methods
+
+### Unit Testing 
+- Process of testing individual units/components of code in isolation to ensure they work as expected
+- One way to do this is with a test framework Jest:
+1) Code coverage - measure of what percentage of code is covered by test
+2) Mocking - separate code you're testing from it's related dependencies (avoid bottlenecking)
+3) Snapshot testing - verify no regressions in DOM of apps after some changes to code base are made
+
+- TDD (Test-Drive Development) - Red, Green, Refactor
+1) Read new requirement
+2) Write failing test
+3) Update source code
+4) Run test that passes
+5) Refactor implementation
