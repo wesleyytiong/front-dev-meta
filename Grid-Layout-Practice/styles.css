@@ -1,7 +1,7 @@
 
 /* Add code for container class below */
 .container {
-    display grid; /* create grid*/
+    display: grid; /* create grid*/
     max-width: 900px; 
     min-height: 50vh;
     grid-template-columns: 100%; /*grid template columsn span 100% of width*/
